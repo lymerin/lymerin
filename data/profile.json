@@ -1,0 +1,256 @@
+{
+  "login": "lymerin",
+  "updated": "2026-10-27T12:15:16.864Z",
+  "repositories": [
+    {
+      "key": "shenyu",
+      "repository": "apache/shenyu",
+      "count": 33,
+      "prs": [
+        {
+          "number": 8091,
+          "title": "fix(e2e): synchronize readiness and isolate prerequisite failures",
+          "url": "https://github.com/apache/shenyu/pull/8091",
+          "mergedAt": "2026-10-26T05:56:35Z"
+        },
+        {
+          "number": 7781,
+          "title": "fix(ci): retry Maven Central downloads and restore E2E cache",
+          "url": "https://github.com/apache/shenyu/pull/7781",
+          "mergedAt": "2026-10-19T01:20:48Z"
+        },
+        {
+          "number": 7777,
+          "title": "fix(httpclient): preserve failover with fixed retry backoff",
+          "url": "https://github.com/apache/shenyu/pull/7777",
+          "mergedAt": "2026-10-17T16:09:27Z"
+        },
+        {
+          "number": 7769,
+          "title": "fix(admin): restore empty namespace refreshes in cluster mode",
+          "url": "https://github.com/apache/shenyu/pull/7769",
+          "mergedAt": "2026-10-18T00:27:31Z"
+        },
+        {
+          "number": 7757,
+          "title": "fix(plugin): prevent corruption of URL-encoded RPC query and form par…",
+          "url": "https://github.com/apache/shenyu/pull/7757",
+          "mergedAt": "2026-10-19T01:33:24Z"
+        },
+        {
+          "number": 7745,
+          "title": "fix(plugin): prevent expired memory cache entries from accumulating",
+          "url": "https://github.com/apache/shenyu/pull/7745",
+          "mergedAt": "2026-10-19T01:29:11Z"
+        },
+        {
+          "number": 7730,
+          "title": "fix(ai): prevent token usage loss across streaming flush boundaries",
+          "url": "https://github.com/apache/shenyu/pull/7730",
+          "mergedAt": "2026-10-19T01:33:45Z"
+        },
+        {
+          "number": 7625,
+          "title": "fix(loadbalancer): preserve Dubbo upstream group and version identity",
+          "url": "https://github.com/apache/shenyu/pull/7625",
+          "mergedAt": "2026-10-17T12:47:47Z"
+        },
+        {
+          "number": 7610,
+          "title": "fix(admin): enforce unique data permission grants",
+          "url": "https://github.com/apache/shenyu/pull/7610",
+          "mergedAt": "2026-10-15T04:58:45Z"
+        },
+        {
+          "number": 7539,
+          "title": "fix(mqtt): fix duplicate startup and resource leaks on config updates",
+          "url": "https://github.com/apache/shenyu/pull/7539",
+          "mergedAt": "2026-10-11T14:34:36Z"
+        },
+        {
+          "number": 7537,
+          "title": "fix(mqtt): preserve binary payloads in MQTT retained messages",
+          "url": "https://github.com/apache/shenyu/pull/7537",
+          "mergedAt": "2026-10-10T17:30:58Z"
+        },
+        {
+          "number": 7535,
+          "title": "fix(ai): synchronize routing context after request path rewrite",
+          "url": "https://github.com/apache/shenyu/pull/7535",
+          "mergedAt": "2026-10-11T14:45:21Z"
+        },
+        {
+          "number": 7513,
+          "title": "fix(logging): fix logging not resuming after re-enabling with unchang…",
+          "url": "https://github.com/apache/shenyu/pull/7513",
+          "mergedAt": "2026-10-26T05:55:40Z"
+        },
+        {
+          "number": 7497,
+          "title": "fix(tcp): fix ignored proxy selector port and property updates",
+          "url": "https://github.com/apache/shenyu/pull/7497",
+          "mergedAt": "2026-10-10T01:54:42Z"
+        },
+        {
+          "number": 7495,
+          "title": "fix(common): wake producers after memory limit changes and reset",
+          "url": "https://github.com/apache/shenyu/pull/7495",
+          "mergedAt": "2026-10-10T08:47:35Z"
+        },
+        {
+          "number": 7489,
+          "title": "fix(httpclient): stop failover retrying the same failed upstream when…",
+          "url": "https://github.com/apache/shenyu/pull/7489",
+          "mergedAt": "2026-10-08T06:17:53Z"
+        },
+        {
+          "number": 7488,
+          "title": "fix(ai): prevent prompt configuration leaking across requests",
+          "url": "https://github.com/apache/shenyu/pull/7488",
+          "mergedAt": "2026-10-08T06:28:41Z"
+        },
+        {
+          "number": 7486,
+          "title": "fix(ai): preserve JSON array bodies in request transformer",
+          "url": "https://github.com/apache/shenyu/pull/7486",
+          "mergedAt": "2026-10-08T06:27:51Z"
+        },
+        {
+          "number": 7483,
+          "title": "fix(httpclient): handle missing upstream list during failover",
+          "url": "https://github.com/apache/shenyu/pull/7483",
+          "mergedAt": "2026-10-11T15:20:04Z"
+        },
+        {
+          "number": 7482,
+          "title": "fix(common): restore eager task queue offer policy",
+          "url": "https://github.com/apache/shenyu/pull/7482",
+          "mergedAt": "2026-10-11T08:37:31Z"
+        },
+        {
+          "number": 7481,
+          "title": "fix(cache): release joined response buffer on cache misses",
+          "url": "https://github.com/apache/shenyu/pull/7481",
+          "mergedAt": "2026-10-08T06:35:09Z"
+        },
+        {
+          "number": 7449,
+          "title": "fix(common): prevent fallback loops with encoded query parameters",
+          "url": "https://github.com/apache/shenyu/pull/7449",
+          "mergedAt": "2026-10-08T06:28:04Z"
+        },
+        {
+          "number": 7448,
+          "title": "fix(mcp): correctly merge fixed and dynamic query parameters",
+          "url": "https://github.com/apache/shenyu/pull/7448",
+          "mergedAt": "2026-10-08T06:28:15Z"
+        },
+        {
+          "number": 7447,
+          "title": "fix(admin): avoid double-prefixing cache keys in HTTP sync recovery",
+          "url": "https://github.com/apache/shenyu/pull/7447",
+          "mergedAt": "2026-10-10T00:54:35Z"
+        },
+        {
+          "number": 7446,
+          "title": "fix(zookeeper): align instance registration and discovery paths",
+          "url": "https://github.com/apache/shenyu/pull/7446",
+          "mergedAt": "2026-10-08T06:36:42Z"
+        },
+        {
+          "number": 7435,
+          "title": "fix(etcd): prevent watcher leaks in selectInstances",
+          "url": "https://github.com/apache/shenyu/pull/7435",
+          "mergedAt": "2026-10-08T06:40:41Z"
+        },
+        {
+          "number": 7426,
+          "title": "refactor(admin): remove unused deprecated registration lock subsystem",
+          "url": "https://github.com/apache/shenyu/pull/7426",
+          "mergedAt": "2026-10-06T02:21:30Z"
+        },
+        {
+          "number": 7425,
+          "title": "fix(dubbo): preserve registry address when rewriting namespace",
+          "url": "https://github.com/apache/shenyu/pull/7425",
+          "mergedAt": "2026-10-04T11:17:36Z"
+        },
+        {
+          "number": 7380,
+          "title": "fix(ci): handle k3s download failures and missing kubeconfig in install retries",
+          "url": "https://github.com/apache/shenyu/pull/7380",
+          "mergedAt": "2026-09-30T21:52:40Z"
+        },
+        {
+          "number": 7372,
+          "title": "fix: update ZooKeeper instance cache when the last child is removed",
+          "url": "https://github.com/apache/shenyu/pull/7372",
+          "mergedAt": "2026-09-29T17:07:31Z"
+        },
+        {
+          "number": 7289,
+          "title": "fix(discovery): remove stale gateway cache on upstream deletion",
+          "url": "https://github.com/apache/shenyu/pull/7289",
+          "mergedAt": "2026-09-30T22:27:47Z"
+        },
+        {
+          "number": 7012,
+          "title": "fix: prevent duplicate TCP bootstrap server creation",
+          "url": "https://github.com/apache/shenyu/pull/7012",
+          "mergedAt": "2026-09-02T14:16:17Z"
+        },
+        {
+          "number": 6909,
+          "title": "[ISSUE #6781] Fix stale proxy selector data after empty HTTP refresh.",
+          "url": "https://github.com/apache/shenyu/pull/6909",
+          "mergedAt": "2026-08-14T13:46:33Z"
+        }
+      ]
+    },
+    {
+      "key": "browserskill",
+      "repository": "Tencent/BrowserSkill",
+      "count": 2,
+      "prs": [
+        {
+          "number": 362,
+          "title": "fix(download): detect ignored transfer directory",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/362",
+          "mergedAt": "2026-10-08T06:40:18Z"
+        },
+        {
+          "number": 311,
+          "title": "fix(input): harden readiness around persistent background leases",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/311",
+          "mergedAt": "2026-09-29T08:12:29Z"
+        }
+      ]
+    },
+    {
+      "key": "octop",
+      "repository": "TencentCloud/Octop",
+      "count": 1,
+      "prs": [
+        {
+          "number": 1576,
+          "title": "fix(update): repair in-app upgrade installation and version verification",
+          "url": "https://github.com/TencentCloud/Octop/pull/1576",
+          "mergedAt": "2026-10-08T06:38:09Z"
+        }
+      ]
+    },
+    {
+      "key": "opentelemetry",
+      "repository": "open-telemetry/opentelemetry-java-instrumentation",
+      "count": 1,
+      "prs": [
+        {
+          "number": 19732,
+          "title": "Fix duplicate process telemetry for Spring Rabbit listeners",
+          "url": "https://github.com/open-telemetry/opentelemetry-java-instrumentation/pull/19732",
+          "mergedAt": "2026-09-02T21:27:10Z"
+        }
+      ]
+    }
+  ]
+}
